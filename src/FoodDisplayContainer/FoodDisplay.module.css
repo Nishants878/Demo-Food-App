@@ -1,0 +1,74 @@
+.MegaWrapper{
+    width: 100%;
+    height: 225px;
+    
+    margin-top: 50px;
+}
+.ContentWrapper{
+    display: flex;
+    
+    
+}
+
+.CardWarapper{
+    width: 300px;
+    height: 220px;
+    
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.FoosPics{
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    
+}
+.FoosPics:hover{
+    transform: scale(1.1);
+}
+.ImageWrapper{
+    width: 270px;
+    height: 90px;
+    
+    
+}
+.RatingWrapper{
+    display: flex;
+}
+.TimeWrapper{
+    width: 80px;
+    height: 30px;
+    background: #F8F8F7;
+    position: absolute;
+    left: 109px;
+    bottom: 75px;
+    z-index: 5;
+    border-radius: 8px;
+    display: none;
+
+    
+}
+.Time{
+    font-size: 11px;
+    font-weight: 600;
+    padding-top: 8  px;
+    padding-left: 10px;
+}
+.DishName{
+    padding-left:10px ;
+    margin-top: 90px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Gray{
+    color: #ccc;
+    font-size: 11px;
+}
+.RatingWrapper{
+    padding-left: 10px;
+}
+.StarIcon{
+    width: 11px;
+    height: 11px;
+}

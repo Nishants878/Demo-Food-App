@@ -1,0 +1,52 @@
+
+.Topbar {
+    width: 100%;
+    height: 8%;
+    padding: 2% 8%;
+    box-sizing: border-box;
+   margin-bottom: 1px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+}
+.ToggleMenu {
+    width: 20px;
+}
+
+.Logo {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0 50px 0 32px;
+}
+
+.SearchContainer {
+    width: 100%;
+    position: relative;
+}
+
+.SearchIcon {
+    position: absolute;
+    width: 20px;
+    top: 14px;
+    left: 24px;
+}
+
+.SearchBox {
+    width: 100%;
+    background-color: #F8F8F7;
+    border: 0;
+    padding: 16px;
+    border-radius: 12px;
+    outline: none;
+
+    padding-left: 64px;
+    box-sizing: border-box;
+}
+
+.SearchBox::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 1.2px;
+}
